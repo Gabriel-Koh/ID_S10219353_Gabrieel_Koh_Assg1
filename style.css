@@ -128,6 +128,14 @@ header.sticky ul li a{
   color: white;
   font-size: 50px
 }
+.about{
+  position: relative;
+  font: Poppins;
+  text-align: center;
+  flex: 1;
+  color: white;
+  font-size: 50px
+}
 .con{
   text-align: left;
   flex: 1;
@@ -258,4 +266,128 @@ header.sticky ul li a{
   flex: 1;
   color: white;
   font-size: 35px
+}
+.comp{
+  color:blue;
+  font-size:50px
+}
+.pos{
+  color:lightblue;
+  font-size:40px
+}
+@media only screen and (max-width: 600px) {
+  header{
+    position: relative;
+    width: 60%
+  }
+  header .logo{
+    display: none;
+  }
+  header ul li a{
+    text-align: left;
+    font-weight: 250px;
+  }
+  .home{
+    display: none;
+  }
+  .abt{
+    display: none;
+  }
+  .contact{
+    display: none;
+  }
+  .other{
+    display: none;
+  }
+  .achievement{
+    display: none;
+  }
+  .sw{
+    flex: 1;
+    color: white;
+    font-size: 20px
+  }
+  .sgcc{
+    flex: 1;
+    color: white;
+    font-size: 20px
+  }
+  .ncc{
+    flex: 1;
+    color: white;
+    font-size: 20px
+  }
+  .aocc{
+    flex: 1;
+    color: white;
+    font-size: 20px
+  }
+  .comp{
+    color:blue;
+    font-size:25px
+  }
+  .pos{
+    color:lightblue;
+    font-size:20px
+  }
+  .about{
+  position: relative;
+  font: Poppins;
+  text-align: center;
+  flex: 1;
+  color: white;
+  font-size: 25px
+  }
+  .contact_header{
+    font-size: 50px
+  }
+  .user-details .button input{
+    width: 33%;
+  }
+  .section__title {
+    font-weight: bold; 
+    font-size: 50px;
+    color: white;
+  }
+  .section__subtitle{
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+  }
+  .intro_img{
+    min-width: 0px;
+    width: 195px
+  }
+  .ex-info{
+    text-align: center;
+    flex: 1;
+    color: orange;
+    font-size: 50px
+  }
+  .education{
+    text-align: center;
+    flex: 1;
+    color: white;
+    font-size: 38px
+  }
+  .hobbies{
+    text-align: center;
+    flex: 1;
+    color: white;
+    font-size: 38px
+  }
+  .links{
+    text-align: center;
+    flex: 1;
+    color: white;
+    font-size: 32px
+  }
+  .abt{
+    position: relative;
+    font: Poppins;
+    text-align: center;
+    flex: 1;
+    color: white;
+    font-size: 25px
+  }
 }
